@@ -4,7 +4,6 @@ entrypoint = "README.md"
 hidden = ["main", "main-debug", "**/*.o", "**/*.d", ".ccls-cache", "Makefile"]
 
 [debugger.compile]
-command = "clang++ main.cpp LinkedList.cpp -O0 -g -o main-debug"
 command = ["make", "main-debug"]
 noFileArgs = true
 
